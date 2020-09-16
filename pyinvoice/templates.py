@@ -97,7 +97,7 @@ class SimpleInvoice(SimpleDocTemplate):
 
     def _invoice_info_data(self):
         if isinstance(self.invoice_info, InvoiceInfo):
-            props = [('invoice_id', 'Invoice id'), ('invoice_datetime', 'Invoice date'),
+            props = [('invoice_id', 'Invoice id'), ('invoice_daterange', 'Invoice Date Range'), ('invoice_datetime', 'Invoice date'),
                      ('due_datetime', 'Invoice due date')]
 
             return self._attribute_to_table_data(self.invoice_info, props)
