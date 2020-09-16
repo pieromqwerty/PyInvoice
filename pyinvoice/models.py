@@ -32,11 +32,14 @@ class InvoiceInfo(object):
         :param invoice_id: Invoice id
         :type invoice_id: int or str or unicode or None
         :param invoice_datetime: Invoice create datetime
+        :type invoice_daterange: str or unicode or datetime or date
+        :param invoice_daterange: Invoice date range
         :type invoice_datetime: str or unicode or datetime or date
         :param due_datetime: Invoice due datetime
         :type due_datetime: str or unicode or datetime or date
         """
         self.invoice_id = invoice_id
+        self.invoice_daterange = invoice_daterange
         self.invoice_datetime = invoice_datetime
         self.due_datetime = due_datetime
 
