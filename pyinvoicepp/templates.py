@@ -9,8 +9,8 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, Spacer
 
-from pyinvoice.components import SimpleTable, TableWithHeader, PaidStamp
-from pyinvoice.models import PDFInfo, Item, Transaction, InvoiceInfo, ServiceProviderInfo, ClientInfo
+from pyinvoicepp.components import SimpleTable, TableWithHeader, PaidStamp
+from pyinvoicepp.models import PDFInfo, Item, Transaction, InvoiceInfo, ServiceProviderInfo, ClientInfo
 
 
 class SimpleInvoice(SimpleDocTemplate):
