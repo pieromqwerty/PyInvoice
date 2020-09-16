@@ -37,7 +37,7 @@ Install
 
 .. code-block:: bash
 
-    pip install pyinvoice
+    pip install pyinvoicepp
 
 Usage
 -----
