@@ -17,7 +17,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='PyInvoicePP',
     version='0.1.7',
-    packages=['pyinvoice', 'tests'],
+    packages=['pyinvoicepp', 'tests'],
     include_package_data=True,
     license='MIT License',
     description='Invoice/Receipt generator',
